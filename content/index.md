@@ -1,8 +1,17 @@
 ---
-title: Welcome to Quartz
-ctime: 2026-06-08T09:15
-updated: 2026-06-08T15:41
+title: 宏观投研笔记
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+# 🌐 宏观投研笔记
+
+记录我的**宏观经济观察**、**研究随笔**与**投资思考**——聚焦美联储政策、利率与通胀、美港股与大宗商品。
+
+## 最近文章
+- [[hello-world|Hello World]]
+
+## 关于
+- 内容均为**个人研究记录**,不构成投资建议
+- 私有持仓/研究不外发,仅发布可公开的观点
+
+---
+> 用 [Quartz](https://quartz.jzhao.xyz/) 把 Obsidian 笔记发布成网站。
