@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 宏观投研笔记
+  pageTitle: WS Wa
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
