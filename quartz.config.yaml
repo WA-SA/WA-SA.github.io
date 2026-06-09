@@ -212,10 +212,20 @@ plugins:
       priority: 5
       condition: not-index
   - source: github:quartz-community/comments
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: WS-SA/WS-SA.github.io
+        repoId: R_kgDOS0wrJg
+        category: General
+        categoryId: DIC_kwDOS0wrJs4C-2qw
+        mapping: title
+        strict: false
+        reactionsEnabled: true
+        inputPosition: bottom
+        lang: zh-CN
+        themeUrl: https://giscus.app/themes
     layout:
       position: afterBody
       priority: 10
