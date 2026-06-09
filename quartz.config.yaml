@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: zh-CN
-  baseUrl: wa-sa.github.io
+  baseUrl: ws-sa.github.io
   ignorePatterns:
     - private
     - templates
