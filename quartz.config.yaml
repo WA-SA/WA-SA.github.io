@@ -20,25 +20,26 @@ configuration:
       body: Noto Serif SC
       code: IBM Plex Mono
     colors:
+      # 暖米黄(牛皮纸)配色 —— light=米黄背景, darkgray=正文, dark=标题, secondary=链接(暖棕)
       lightMode:
-        light: "#faf8f8"
-        lightgray: "#e5e5e5"
-        gray: "#b8b8b8"
-        darkgray: "#4e4e4e"
-        dark: "#2b2b2b"
-        secondary: "#284b63"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        light: "#faf3e0"
+        lightgray: "#e8dcc4"
+        gray: "#b3a584"
+        darkgray: "#5c5444"
+        dark: "#2e2a20"
+        secondary: "#9a6a3a"
+        tertiary: "#7a8c5c"
+        highlight: rgba(154, 106, 58, 0.12)
+        textHighlight: "#e6c84e88"
       darkMode:
-        light: "#161618"
-        lightgray: "#393639"
-        gray: "#646464"
-        darkgray: "#d4d4d4"
-        dark: "#ebebec"
-        secondary: "#7b97aa"
-        tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
+        light: "#1f1c17"
+        lightgray: "#393528"
+        gray: "#6b6450"
+        darkgray: "#cfc6ad"
+        dark: "#f0e9d6"
+        secondary: "#d2a679"
+        tertiary: "#b5c98e"
+        highlight: rgba(210, 166, 121, 0.12)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
@@ -270,7 +271,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: catppuccin
   - source: github:quartz-community/obsidian-plugin-excalidraw
