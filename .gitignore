@@ -11,3 +11,6 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
+# 本地学习/笔记用,永不推送公开博客
+docs_zh/
+博客.md

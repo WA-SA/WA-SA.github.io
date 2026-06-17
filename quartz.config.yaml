@@ -20,7 +20,6 @@ configuration:
       body: Noto Serif SC
       code: IBM Plex Mono
     colors:
-      # 暖米黄(牛皮纸)配色 —— light=米黄背景, darkgray=正文, dark=标题, secondary=链接(暖棕)
       lightMode:
         light: "#faf3e0"
         lightgray: "#e8dcc4"
@@ -280,6 +279,10 @@ plugins:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
+    order: 50
+  - source: github:quartz-community/tui
+    enabled: true
+    options: {}
     order: 50
 layout:
   groups:
