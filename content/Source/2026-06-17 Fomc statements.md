@@ -1,5 +1,5 @@
 ---
-link: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm
+link: https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm
 tags:
   - FOMC
 ctime: 2026-06-17
