@@ -69,8 +69,9 @@ draft: false
 
 ---
 
-## 块引用验证(引用上面测试5A / 测试6B)
+## 块引用-同页链接(点击应跳到对应 callout)
 
-引用写法 A:![[callout-test#^test5a]]
+- 跳转写法 A:[[#^test5a|跳到测试5A]]
+- 跳转写法 B:[[#^test6b|跳到测试6B]]
 
-引用写法 B:![[callout-test#^test6b]]
+> 跨页"嵌入"测试在另一页 [[callout-test-embed]](本页自己嵌自己会触发循环检测,所以分开)。
