@@ -30,7 +30,7 @@ folder: WiKi
 - [[补充杠杆率]] · [[利率]]
 
 ## 来源
-- 美联储新闻稿《Kevin Warsh takes oath of office as chairman...》(2026-05-22)
-- CNBC / CBS / NBC / Boston Globe 相关报道(2026-05)
-- ING / Investing.com《Hawkish Shift Opens the Door to Fed Rate Hikes》(2026-06-17)
-- Warsh 演讲《It's Greek to Me》(2010-06-28,Atlanta Rotary Club)
+- 美联储新闻稿《[Kevin Warsh takes oath of office as chairman...](https://www.federalreserve.gov/newsevents/pressreleases/other20260522a.htm)》(2026-05-22)
+- CNBC《[Trump swears Kevin Warsh in as Fed chair](https://www.cnbc.com/2026/05/22/trump-kevin-warsh-fed-chair-interest-rates.html)》等(2026-05,另有 CBS / NBC / Boston Globe)
+- ING / Investing.com《[Hawkish Shift Opens the Door to Fed Rate Hikes](https://www.investing.com/analysis/hawkish-shift-opens-the-door-to-fed-rate-hikes-200682359)》(2026-06-17)
+- Warsh 演讲《[It's Greek to Me](https://www.federalreserve.gov/newsevents/speech/warsh20100628a.pdf)》(2010-06-28,Atlanta Rotary Club)
