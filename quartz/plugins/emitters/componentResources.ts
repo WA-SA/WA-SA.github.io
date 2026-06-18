@@ -258,6 +258,31 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
     `)
   }
 
+  // 不蒜子风格阅读量:在文章 meta 行显示"阅读 N 次"。
+  // 用 vercount(cn.vercount.one)这个不蒜子兼容后端(span ID 一致),因官方 busuanzi 服务器常不稳定。
+  // 支持 SPA 切页重新计数。仅在有 .content-meta 的内容页注入。
+  componentResources.afterDOMLoaded.push(`
+    function __injectReadCount() {
+      const meta = document.querySelector(".content-meta");
+      if (meta && !document.getElementById("busuanzi_value_page_pv")) {
+        const span = document.createElement("span");
+        span.className = "read-count";
+        span.style.marginLeft = "0.5rem";
+        span.innerHTML = '· 阅读 <span id="busuanzi_value_page_pv">…</span> 次';
+        meta.appendChild(span);
+      }
+      const old = document.getElementById("vercount-js");
+      if (old) old.remove();
+      const s = document.createElement("script");
+      s.id = "vercount-js";
+      s.defer = true;
+      s.src = "https://cn.vercount.one/js";
+      document.head.appendChild(s);
+    }
+    __injectReadCount();
+    document.addEventListener("nav", __injectReadCount);
+  `)
+
   if (cfg.enableSPA) {
     componentResources.afterDOMLoaded.push(spaRouterScript)
   } else {
